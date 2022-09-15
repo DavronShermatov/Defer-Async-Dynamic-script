@@ -3,5 +3,13 @@ function LoadScript(src){
     script.src = src
     document.body.append(script)
 }
-LoadScript(third);
 
+
+const arr = [5, 8, 7, -55, 6, 1];
+
+sorted = arr.sort(compare)
+
+function compare(a,b){
+    return a-b;
+}
+console.log(sorted)
